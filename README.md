@@ -89,15 +89,15 @@ coin: Name of the cryptocurrency (e.g., bitcoin, matic-network, ethereum).
 }
 
 # Project Structure
-Assignment/
-├── models/
-│   └── crypto.js        # Mongoose schema for cryptocurrency data
-├──src/
-│   └── app.js   
-│   └── fetchData.js    # Logic to fetch data from CoinGecko API
-├── server.js            # Main Express server
-├── package.json         # Dependencies and scripts
-├── README.md            # Project documentation
+Assignment/ <br>
+├── models/ <br>
+│   └── crypto.js   # Mongoose schema for cryptocurrency data<br>
+├──src/<br>
+│   └── app.js   <br>
+│   └── fetchData.js # Logic to fetch data from CoinGecko API<br>
+├── server.js        # Main Express server<br>
+├── package.json     # Dependencies and scripts<br>
+├── README.md        # Project documentation<br>
 
 
 # Technologies Used
