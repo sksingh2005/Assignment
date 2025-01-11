@@ -60,7 +60,7 @@ File: server.js
    Create a variable name MONGO_URL and Add your MongoDB connection string
 4. Run the application:
    node server.js
-   node src/app.js
+   
 ## Endpoints
 # 1. GET /stats
 Description: Fetch the latest cryptocurrency data from the CoinGecko API.
@@ -93,12 +93,10 @@ Assignment/ <br>
 ├── models/ <br>
 │   └── crypto.js   # Mongoose schema for cryptocurrency data<br>
 ├──src/<br>
-│   └── app.js   <br>
 │   └── fetchData.js # Logic to fetch data from CoinGecko API<br>
 ├── server.js        # Main Express server<br>
 ├── package.json     # Dependencies and scripts<br>
 ├── README.md        # Project documentation<br>
-
 
 # Technologies Used
 1. Node.js: Backend runtime.
